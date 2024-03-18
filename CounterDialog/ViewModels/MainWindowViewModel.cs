@@ -1,7 +1,6 @@
 ﻿using CounterDialog.Models;
 using CounterDialog.Services;
 using CounterDialog.Views;
-using Microsoft.CodeAnalysis.CSharp;
 using ReactiveUI;
 using System.Collections;
 using System.Collections.Generic;

@@ -29,7 +29,7 @@
 			<TextBlock Classes="h1" Text="{Binding ActiveCounterItem_Count}">15</TextBlock>
 		</StackPanel>
 		<DockPanel >
-			<Button x:Name="diedButton" Command="{Binding DiedButton_Command}" CommandParameter="{Binding ActiveCounterItem_Name}">You died?</Button>
+			<Button x:Name="DiedButton" Command="{Binding DiedButton_Command}" CommandParameter="{Binding ActiveCounterItem_Name}">You died?</Button>
 			<Button x:Name="GGButton" >GG Ez</Button>
 		</DockPanel>
 	</StackPanel>
