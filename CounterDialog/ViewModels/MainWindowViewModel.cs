@@ -20,15 +20,6 @@ namespace CounterDialog.ViewModels
 
             CounterItemList = new CounterItemViewModel(counterService.GetItems());
         }
-
-        public void DiedButtonPressed()
-        {
-            var counterService = new CounterService();
-
-        }
-
-        
-
     }
 
 }

@@ -32,9 +32,9 @@ public class GlobalHotkey
         _id = GetHashCode();
         _action = action;
 
+        // AXAML-PREVIEWIA VARTEN KOMMENTOITAVA
         RegisterHotKey(_handle, _id, 0, (uint)KeyInterop.VirtualKeyFromKey(key));
         ((ClassicDesktopStyleApplicationLifetime)Avalonia.Application.Current.ApplicationLifetime).MainWindow.KeyDown += MainWindow_KeyDown;
-        //((ClassicDesktopStyleApplicationLifetime)Avalonia.Application.Current.ApplicationLifetime).MainWindow.AddHandler(KeyDownEvent, MainWindow_KeyDown);
 
     }
 

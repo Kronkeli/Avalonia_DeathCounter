@@ -3,8 +3,6 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:vm="using:CounterDialog.ViewModels"
-		Width="300"
-		Height="200"
         x:Class="CounterDialog.Views.CounterItemListView"
 		x:DataType="vm:CounterItemViewModel">
 
@@ -30,7 +28,7 @@
 		</StackPanel>
 		<DockPanel >
 			<Button x:Name="DiedButton" Command="{Binding DiedButton_Command}" CommandParameter="{Binding ActiveCounterItem_Name}">You died?</Button>
-			<Button x:Name="GGButton" >GG Ez</Button>
+			<Button x:Name="GGButton" Click="_ggButton_Click" >GG Ez</Button>
 		</DockPanel>
 	</StackPanel>
 </UserControl >
